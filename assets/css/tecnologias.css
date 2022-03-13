@@ -1,0 +1,16 @@
+.tecnologias__lista{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap:wrap ;
+    margin-top:1.125rem;
+    width: 100%;
+
+}
+.tecnologias__itens{
+    margin: 1.5rem 0;
+    width: 25%;
+}
+.tecnologias__icones{
+    font-size: 4.5rem;
+    color: var(--cinza-azulado);
+}

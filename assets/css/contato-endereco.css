@@ -1,0 +1,12 @@
+.contato-endereco{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.iones__contatos{
+    font-size: 1.125rem;
+    color: var(--azul-acinzentado);
+    margin-right: .5rem;
+}
