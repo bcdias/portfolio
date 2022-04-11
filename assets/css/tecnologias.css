@@ -7,10 +7,9 @@
 
 }
 .tecnologias__itens{
-    margin: 1.5rem 0;
-    width: 25%;
+    margin: .5rem 1rem;
 }
 .tecnologias__icones{
-    font-size: 4.5rem;
-    color: var(--cinza-azulado);
+    font-size: 3rem;
+    color: var(--branco);
 }

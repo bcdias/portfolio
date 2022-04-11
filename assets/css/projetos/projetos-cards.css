@@ -1,0 +1,92 @@
+.card{
+    box-shadow: 7px 7px 10px #aaaaaa;
+    margin-top: 1rem;
+}
+.lista__cards {
+    width: 100%;
+
+}
+
+.card__imagem {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+
+.card__imagem--alurageek {
+    background-image: url('../../img/alurageek.png');
+}
+
+.card__imagem--ceep {
+    background-image: url('../../img/ceep.png');
+}
+
+.card__imagem--frutaefrutos {
+    background-image: url('../../img/frutoefrutas.png');
+}
+
+.card__imagem--sunnyside {
+    background-image: url('../../img/sunnyside.png');
+}
+.card__textos{
+    font-family: var(--fonte-textos);
+    font-size: var(--tamanho-fonte-textos);
+}
+.card__titulo{
+    color: var(--cinza-azulado);
+    font-family: var(--fonte-titulos);
+    font-size: var(--tamanho-fonte-titulo);
+    margin-top: 1rem;
+}
+
+.card__descricao {
+      line-height: 1.25rem;
+      margin: .5rem 0;
+      text-align: justify;
+}
+.card__tecnologias--titulo {
+    border-top: 1px solid;
+    font-weight: 700;
+
+    margin-bottom: .5rem;
+    padding-top: .5rem;
+}
+.card__tecnologias--textos{
+    font-family: var(--fonte-textos);
+    font-size: .8rem;
+}
+
+.lista__tecnologias {
+   display: grid;
+   grid-template-columns: 45% 1fr;
+   grid-row-gap: .2rem;
+}
+.card__links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card__botao{
+    color: var(--branco-leve);
+    background-color: var(--cinza-azulado);
+    padding: .5rem 0;
+    margin: 1rem 0;
+    text-align: center;
+    width: 35%;
+}
+
+@media  screen and (min-width: 768px) {
+    .card{
+        margin-top: 0;
+    }
+
+    .lista__cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 1.5rem;
+        grid-row-gap: 1rem;
+    }
+    
+}

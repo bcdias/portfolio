@@ -29,7 +29,6 @@ body {
 .cv-container {
   box-sizing: border-box;
   display: flex;
-  width: 90%;
 }
 
 /* Encapsulamento */
@@ -81,23 +80,8 @@ body {
 
 /* Responsivo */
 
+
 @media screen and (max-width: 1024px) {
-  body{
-    margin: 0;
-  }
- 
-  .cv-container{
-    width: 100vw;
-  }
-  
-  .esquerda{
-    width: 42%;
-  }
-  .direita{
-    width: 58%;
-  }
-}
-@media screen and (max-width: 768px) {
   body{
     padding: 0;
   }
