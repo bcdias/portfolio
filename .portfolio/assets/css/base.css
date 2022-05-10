@@ -1,0 +1,9 @@
+:root{
+    --azul-logo: rgb(186, 225, 255);
+    --laranja-lo: rgb(255, 225, 181);
+    --cor-textos: rgb(0, 0, 0);
+    --bg-menu-mobile: rgba(254, 254, 254, 0.4);
+}
+body{
+    font-size: 16px;
+}
