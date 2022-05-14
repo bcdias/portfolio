@@ -1,0 +1,16 @@
+.boas-vindas__saudacao::before{
+    display: inline-block;
+    content: "";
+    width: 80px;
+    height: 6px;
+    background: var(--laranja-logo);
+    vertical-align: middle;
+    margin-right: 1rem;
+}
+.boas-vindas__saudacao{
+    color: var(--cor-textos);
+    font-size: 1.125rem;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}

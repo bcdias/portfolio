@@ -16,19 +16,6 @@
     transition: .5s;
 }
 
-.menu__lista{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-.menu__item{
-    margin: 2.5rem 1rem;
-}
-.menu__link{
-    color: var(--cor-textos);
-}
 
 .bi-menu-abrir::before{
     display: inline-block;

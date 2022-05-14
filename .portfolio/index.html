@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,30 +9,44 @@
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./assets/css/modulos.css">
-    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho.css">
-    <link rel="stylesheet" href="./assets/css/cabecalho/menu.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu-lista.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu-item.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu-link.css">
+    <link rel="stylesheet" href="./assets/css/boasVindas/boas-vindas.css">
+    <link rel="stylesheet" href="./assets/css/boasVindas/boas-vindas-saudacao.css">
+    <link rel="stylesheet" href="./assets/css/boasVindas/boas-vindas-titulo.css">
+    <link rel="stylesheet" href="./assets/css/boasVindas/boas-vindas-funcao.css">
     <link rel="stylesheet" href="./assets/css/sobre/sobre.css">
-
     <title>Bruno Dias</title>
 </head>
+
 <body>
     <header class="cabecalho">
         <div class="container">
             <img src="./assets/img/logo/logo.svg" alt="logo bruno dias">
             <nav class="cabecalho__menu" data-tipo="menu">
                 <ul class="menu__lista">
-                    <li class="menu__item"><a class="menu__link" data-tipo= "linkMenu" href="#">Sobre</a></li>
-                    <li class="menu__item"><a class="menu__link"  data-tipo="linkMenu"href="#">Tecnologias</a></li>
-                    <li class="menu__item"><a class="menu__link"  data-tipo="linkMenu"href="#">Diferenciais</a></li>
-                    <li class="menu__item"><a class="menu__link"  data-tipo="linkMenu"href="#">Projetos</a></li>
-                    <li class="menu__item"><a class="menu__link"  data-tipo="linkMenu"href="#">Contato</a></li>
+                    <li class="menu__item"><a class="menu__link" data-tipo="linkMenu" href="#">Sobre</a></li>
+                    <li class="menu__item"><a class="menu__link" data-tipo="linkMenu" href="#">Tecnologias</a></li>
+                    <li class="menu__item"><a class="menu__link" data-tipo="linkMenu" href="#">Diferenciais</a></li>
+                    <li class="menu__item"><a class="menu__link" data-tipo="linkMenu" href="#">Projetos</a></li>
+                    <li class="menu__item"><a class="menu__link" data-tipo="linkMenu" href="#">Contato</a></li>
                 </ul>
             </nav>
-            
+
             <i class="bi-menu-abrir" data-tipo="iconeMenu"></i>
         </div>
     </header>
-    <main> 
+    <main>
+        <section class="boas-vindas">
+            <div class="container">
+                <h3 class="boas-vindas__saudacao">Muito prazer</h3>
+                <h1 class="boas-vindas__titulo">Eu sou Bruno Dias</h1>
+                <p class="boas-vindas__funcao"> Desenvolvedor web full stack</p>
+            </div>
+        </section>
         <section class="sobre">
 
         </section>
@@ -53,4 +68,5 @@
     </footer>
     <script type="module" src="./assets/js/main.js"></script>
 </body>
+
 </html>
