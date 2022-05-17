@@ -1,0 +1,23 @@
+
+.boas-vindas__titulo{
+    animation: aparecer-titulo 1.2s;
+    color: var(--cor-textos);
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+
+@keyframes aparecer-titulo {
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    20%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

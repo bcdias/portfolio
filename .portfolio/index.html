@@ -14,11 +14,13 @@
     <link rel="stylesheet" href="./assets/css/menu/menu-lista.css">
     <link rel="stylesheet" href="./assets/css/menu/menu-item.css">
     <link rel="stylesheet" href="./assets/css/menu/menu-link.css">
-    <link rel="stylesheet" href="./assets/css/boasVindas/boas-vindas.css">
-    <link rel="stylesheet" href="./assets/css/boasVindas/boas-vindas-saudacao.css">
-    <link rel="stylesheet" href="./assets/css/boasVindas/boas-vindas-titulo.css">
-    <link rel="stylesheet" href="./assets/css/boasVindas/boas-vindas-funcao.css">
+    <link rel="stylesheet" href="./assets/css/boasVindas/boasVindas.css">
+    <link rel="stylesheet" href="./assets/css/boasVindas/boasVindas-saudacao.css">
+    <link rel="stylesheet" href="./assets/css/boasVindas/boasVindas-titulo.css">
+    <link rel="stylesheet" href="./assets/css/boasVindas/boasVindas-funcao.css">
     <link rel="stylesheet" href="./assets/css/sobre/sobre.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-img.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-texto.css">
     <title>Bruno Dias</title>
 </head>
 
@@ -28,27 +30,29 @@
             <img src="./assets/img/logo/logo.svg" alt="logo bruno dias">
             <nav class="cabecalho__menu" data-tipo="menu">
                 <ul class="menu__lista">
-                    <li class="menu__item"><a class="menu__link" data-tipo="linkMenu" href="#">Sobre</a></li>
-                    <li class="menu__item"><a class="menu__link" data-tipo="linkMenu" href="#">Tecnologias</a></li>
-                    <li class="menu__item"><a class="menu__link" data-tipo="linkMenu" href="#">Diferenciais</a></li>
-                    <li class="menu__item"><a class="menu__link" data-tipo="linkMenu" href="#">Projetos</a></li>
-                    <li class="menu__item"><a class="menu__link" data-tipo="linkMenu" href="#">Contato</a></li>
+                    <li class="menu__item"><a class="menu__link" data-tipo="abreFechaMenu" href="#">Sobre</a></li>
+                    <li class="menu__item"><a class="menu__link" data-tipo="abreFechaMenu" href="#">Tecnologias</a></li>
+                    <li class="menu__item"><a class="menu__link" data-tipo="abreFechaMenu" href="#">Diferenciais</a></li>
+                    <li class="menu__item"><a class="menu__link" data-tipo="abreFechaMenu" href="#">Projetos</a></li>
+                    <li class="menu__item"><a class="menu__link" data-tipo="abreFechaMenu" href="#">Contato</a></li>
                 </ul>
             </nav>
-
-            <i class="bi-menu-abrir" data-tipo="iconeMenu"></i>
+            <i class="bi-menu-abrir"  data-tipo="abreFechaMenu"></i>
         </div>
     </header>
     <main>
         <section class="boas-vindas">
             <div class="container">
-                <h3 class="boas-vindas__saudacao">Muito prazer</h3>
-                <h1 class="boas-vindas__titulo">Eu sou Bruno Dias</h1>
-                <p class="boas-vindas__funcao"> Desenvolvedor web full stack</p>
+                <h3 class="boas-vindas__saudacao" data-tipo="animacao">Muito prazer</h3>
+                <h1 class="boas-vindas__titulo" data-tipo="animacao">Eu sou Bruno Dias</h1>
+                <p class="boas-vindas__funcao" data-tipo="animacao"> Desenvolvedor web full stack</p>
             </div>
         </section>
         <section class="sobre">
-
+            <div class="container">
+                <div class="sobre__img"></div>
+                <p class="sobre__texto"></p>
+            </div>
         </section>
         <section class="tecnologias">
 
