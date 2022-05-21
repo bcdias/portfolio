@@ -9,3 +9,14 @@ listaLinkMenu.forEach(link => {
         abreFechaMenu(menu, menuIcone);
     });
 })
+
+/* Iniciando carrossel */
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+        items: 1,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 3500,
+        autoplayHoverPause: true,
+    });
+  });

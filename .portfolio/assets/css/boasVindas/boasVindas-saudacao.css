@@ -3,7 +3,7 @@
     content: "";
     width: 80px;
     height: 6px;
-    background: var(--laranja-logo);
+    background: var(--laranja);
     vertical-align: middle;
     margin-right: 1rem;
 }

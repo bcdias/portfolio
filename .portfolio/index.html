@@ -20,24 +20,31 @@
     <link rel="stylesheet" href="./assets/css/boasVindas/boasVindas-funcao.css">
     <link rel="stylesheet" href="./assets/css/sobre/sobre.css">
     <link rel="stylesheet" href="./assets/css/sobre/sobre-img.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-ola.css">
     <link rel="stylesheet" href="./assets/css/sobre/sobre-texto.css">
+    <link rel="stylesheet" href="./assets/css/tecnologias/tecnologias.css">
+    <link rel="stylesheet" href="./assets/css/tecnologias/tecnologias-titulo.css">
+    <link rel="stylesheet" href="./assets/css/carrossel/carrossel-img.css">
+    <link rel="stylesheet" href="./assets/css/carrossel/img-legenda.css">
+    <link rel="stylesheet" href="./lib/owlCarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./lib/owlCarousel/dist/assets/owl.theme.default.min.css">
     <title>Bruno Dias</title>
 </head>
 
-<body>
+<body class="base">
     <header class="cabecalho">
         <div class="container">
             <img src="./assets/img/logo/logo.svg" alt="logo bruno dias">
             <nav class="cabecalho__menu" data-tipo="menu">
                 <ul class="menu__lista">
-                    <li class="menu__item"><a class="menu__link" data-tipo="abreFechaMenu" href="#">Sobre</a></li>
-                    <li class="menu__item"><a class="menu__link" data-tipo="abreFechaMenu" href="#">Tecnologias</a></li>
+                    <li class="menu__item"><a class="menu__link" data-tipo="abreFechaMenu" href="#sobre">Sobre</a></li>
+                    <li class="menu__item"><a class="menu__link" data-tipo="abreFechaMenu" href="#tecnologias">Tecnologias</a></li>
                     <li class="menu__item"><a class="menu__link" data-tipo="abreFechaMenu" href="#">Diferenciais</a></li>
-                    <li class="menu__item"><a class="menu__link" data-tipo="abreFechaMenu" href="#">Projetos</a></li>
-                    <li class="menu__item"><a class="menu__link" data-tipo="abreFechaMenu" href="#">Contato</a></li>
+                    <li class="menu__item"><a class="menu__link" data-tipo="abreFechaMenu" href="#projetos">Projetos</a></li>
+                    <li class="menu__item"><a class="menu__link" data-tipo="abreFechaMenu" href="#contato">Contato</a></li>
                 </ul>
             </nav>
-            <i class="bi-menu-abrir"  data-tipo="abreFechaMenu"></i>
+            <i class="bi-menu-abrir" data-tipo="abreFechaMenu"></i>
         </div>
     </header>
     <main>
@@ -48,29 +55,71 @@
                 <p class="boas-vindas__funcao" data-tipo="animacao"> Desenvolvedor web full stack</p>
             </div>
         </section>
-        <section class="sobre">
+        <section id="sobre" class="sobre">
             <div class="container">
                 <div class="sobre__img"></div>
-                <p class="sobre__texto"></p>
+                <h2 class="sobre__olá">Olá,</h2>
+                <p class="sobre__texto">
+                    eu sou Bruno Dias, desenvolvedor web full stack júnior e voluntário na ONG Doar Bem,
+                    onde atuo como desenvolvedor back-end. Atualmente sou um dos alunos do programa Desenvolve,
+                    organizado pelo Grupo Boticário, onde curso a trilha de desenvolvimento full stack na Alura.
+                </p>
             </div>
         </section>
-        <section class="tecnologias">
-
+        <section id="tecnologias" class="tecnologias">
+            <div class="container">
+                <h2 class="tecnologias__titulo">Tecnologias</h2>
+                <div class="owl-carousel owl-theme">
+                    <div>
+                        <img class="carrossel__img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                        <h4 class="img__legenda">javascript</h4>
+                    </div>
+                    <div>
+                        <img class="carrossel__img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+                        <h4 class="img__legenda">typescript</h4>
+                    </div>
+                    <div>
+                        <img class="carrossel__img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                        <h4 class="img__legenda">react</h4>
+                    </div>
+                    <div>
+                        <img class="carrossel__img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                        <h4 class="img__legenda">html</h4>
+                    </div>
+                    <div>
+                        <img class="carrossel__img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+                        <h4 class="img__legenda">css</h4>
+                    </div>
+                    <div>
+                        <img class="carrossel__img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
+                        <h4 class="img__legenda">nodejs</h4>
+                    </div>
+                    <div>
+                        <img class="carrossel__img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
+                        <h4 class="img__legenda">mysql</h4>
+                    </div>
+                    <div>
+                        <img class="carrossel__img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+                        <h4 class="img__legenda">git</h4>
+                    </div>
+                    <div>
+                        <img class="carrossel__img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                        <h4 class="img__legenda">github</h4>
+                    </div>                  
+                </div>
+            </div>
         </section>
-        <section class="diferenciais ">
-
+        <section id="projetos" class="projetos">
         </section>
-        <section class="projetos">
-
-        </section>
-        <section class="contato">
-
+        <section id="contato" class="contato">
         </section>
     </main>
     <footer>
 
     </footer>
     <script type="module" src="./assets/js/main.js"></script>
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/owlCarousel/dist/owl.carousel.min.js"></script>
 </body>
 
 </html>
