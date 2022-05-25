@@ -1,5 +1,9 @@
 .atuacao{
     width: 100vw;
-    padding: 2rem 0;
-    text-align: center;
+    padding: 2rem 0;    /* text-align: center; */
+}
+.atuacao .container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }

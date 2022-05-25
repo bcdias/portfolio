@@ -1,4 +1,34 @@
 .container{
     margin-inline: 1rem;
 }
+.card__area{
+    align-items: center;
+    border-radius: 10%;
+    box-shadow: 5px 5px 15px rgb(46, 46, 46);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    width: 85%;
+}
 
+.card__area--titulo{
+    color: var(--azul);
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: .75rem ;
+
+}
+.card__area--ilustracao{
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150px;
+    margin: 0 auto;
+    width: 150px;
+}
+.card__area--decricao{
+    text-align: justify;
+    font-size: .95rem;
+    line-height: 1.25rem;
+}
