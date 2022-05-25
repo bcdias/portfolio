@@ -1,0 +1,8 @@
+.frontend__ilustracao{
+    background-image: url('../../img/frontend.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 200px;
+    margin: 0 auto;
+    width: 200px;
+}

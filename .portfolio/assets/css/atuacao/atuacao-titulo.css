@@ -1,0 +1,6 @@
+.atuacao__titulo{
+    color: var(--azul);
+    font-size: 2rem;
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
