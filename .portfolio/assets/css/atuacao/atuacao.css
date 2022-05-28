@@ -2,7 +2,7 @@
     width: 100vw;
     padding: 2rem 0;    /* text-align: center; */
 }
-.atuacao .container{
+.atuacao .modulo-container{
     align-items: center;
     display: flex;
     flex-direction: column;

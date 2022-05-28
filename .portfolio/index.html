@@ -23,12 +23,25 @@
     <link rel="stylesheet" href="./assets/css/sobre/sobre-ola.css">
     <link rel="stylesheet" href="./assets/css/sobre/sobre-texto.css">
     <link rel="stylesheet" href="./assets/css/tecnologias/tecnologias.css">
-    <link rel="stylesheet" href="./assets/css/tecnologias/tecnologias-titulo.css">
     <link rel="stylesheet" href="./assets/css/atuacao/atuacao.css">
     <link rel="stylesheet" href="./assets/css/atuacao/atuacao-titulo.css">
     <link rel="stylesheet" href="./assets/css/atuacao/atuacao-frontend.css">
     <link rel="stylesheet" href="./assets/css/atuacao/frontend-ilustracao.css">
     <link rel="stylesheet" href="./assets/css/atuacao/backend-ilustracao.css">
+    <link rel="stylesheet" href="./assets/css/cardAtuacao/cardAtuacao.css">
+    <link rel="stylesheet" href="./assets/css/cardAtuacao/cardAtuacao-titulo.css">
+    <link rel="stylesheet" href="./assets/css/cardAtuacao/cardAtuacao-ilustracao.css">
+    <link rel="stylesheet" href="./assets/css/cardAtuacao/cardAtuacao-descricao.css">
+    <link rel="stylesheet" href="./assets/css/cardAtuacao/cardAtuacao-descricao.css">
+    <link rel="stylesheet" href="./assets/css//projetos/projetos.css">
+    <link rel="stylesheet" href="./assets/css/projetos/projetoCar/projetoCard.css">
+    <link rel="stylesheet" href="./assets/css/projetos/projetoCar/projetoCard-ilustracao.css">
+    <link rel="stylesheet" href="./assets/css/projetos/projetoCar/projetoCard-titulo.css">
+    <link rel="stylesheet" href="./assets/css/projetos/projetoCar/projetoCard-tecnologias.css">
+    <link rel="stylesheet" href="./assets/css/projetos/projetoCar/projetoCard-tecnologia.css">
+    <link rel="stylesheet" href="./assets/css/projetos/projetoCar/projetoCard-descricao.css">
+    <link rel="stylesheet" href="./assets/css/projetos/projetoCar/projetocard-links.css">
+    <link rel="stylesheet" href="./assets/css/projetos/projetoCar/projetoCard-botao.css">
     <link rel="stylesheet" href="./assets/css/carrossel/carrossel-img.css">
     <link rel="stylesheet" href="./assets/css/carrossel/img-legenda.css">
     <link rel="stylesheet" href="./lib/owlCarousel/dist/assets/owl.carousel.min.css">
@@ -38,14 +51,17 @@
 
 <body class="base">
     <header class="cabecalho">
-        <div class="container">
+        <div class="modulo-container">
             <img src="./assets/img/logo/logo.svg" alt="logo bruno dias">
             <nav class="cabecalho__menu" data-tipo="menu">
                 <ul class="menu__lista">
                     <li class="menu__item"><a class="menu__link" data-tipo="abreFechaMenu" href="#sobre">Sobre</a></li>
-                    <li class="menu__item"><a class="menu__link" data-tipo="abreFechaMenu" href="#tecnologias">Tecnologias</a></li>
-                    <li class="menu__item"><a class="menu__link" data-tipo="abreFechaMenu" href="#atuacao">Atuação</a></li>
-                    <li class="menu__item"><a class="menu__link" data-tipo="abreFechaMenu" href="#projetos">Projetos</a></li>
+                    <li class="menu__item"><a class="menu__link" data-tipo="abreFechaMenu"
+                            href="#tecnologias">Tecnologias</a></li>
+                    <li class="menu__item"><a class="menu__link" data-tipo="abreFechaMenu" href="#atuacao">Atuação</a>
+                    </li>
+                    <li class="menu__item"><a class="menu__link" data-tipo="abreFechaMenu" href="#projetos">Projetos</a>
+                    </li>
                     <li class="menu__item"><a class="menu__link" data-tipo="abreFechaMenu" href="#contato">Contato</a>
                     </li>
                 </ul>
@@ -55,14 +71,14 @@
     </header>
     <main>
         <section class="boas-vindas">
-            <div class="container">
+            <div class="modulo-container">
                 <h3 class="boas-vindas__saudacao" data-tipo="animacao">Muito prazer</h3>
                 <h1 class="boas-vindas__titulo" data-tipo="animacao">Eu sou Bruno Dias</h1>
                 <p class="boas-vindas__funcao" data-tipo="animacao"> Desenvolvedor web full stack</p>
             </div>
         </section>
         <section id="sobre" class="sobre">
-            <div class="container">
+            <div class="modulo-container">
                 <div class="sobre__img"></div>
                 <h2 class="sobre__olá">Olá,</h2>
                 <p class="sobre__texto">
@@ -73,8 +89,8 @@
             </div>
         </section>
         <section id="tecnologias" class="tecnologias">
-            <div class="container">
-                <h2 class="tecnologias__titulo">Tecnologias</h2>
+            <div class="modulo-container">
+                <h2 class="modulo-titulo__faixa-dupla">Tecnologias</h2>
                 <div class="owl-carousel owl-theme">
                     <div>
                         <img class="carrossel__img"
@@ -125,27 +141,49 @@
             </div>
         </section>
         <section id="atuacao" class="atuacao">
-            <div class="container">
+            <div class="modulo-container">
                 <h2 class="atuacao__titulo">O que desenvolvo</h2>
-                <div class="card__area atuacao__frontend">
-                    <h3 class="frontend__titulo card__area--titulo">Front-end</h3>
-                    <div class="frontend__ilustracao card__area--ilustracao"></div>
-                    <p class="frontend__descricao card__area--decricao">
-                        Desenvolvo interfaces gráficas de sites a partir de layouts e integro 
+                <div class="card-atuacao atuacao__frontend">
+                    <h3 class="frontend__titulo card-atuacao__titulo">Front-end</h3>
+                    <div class="frontend__ilustracao card-atuacao__ilustracao"></div>
+                    <p class="frontend__descricao card-atuacao__descricao">
+                        Desenvolvo interfaces gráficas de sites a partir de layouts e integro
                         sites com API REST.
                     </p>
                 </div>
-                <div class="card__area">
-                    <h3 class="backend__titulo card__area--titulo">Back-end</h3>
-                    <div class="backend__ilustracao card__area--ilustracao"></div>
-                    <p class="backend__descricao card__area--decricao">
-                        Desenvolvo API que integra banco de dados, regras de negócio e interfaces 
+                <div class="card-atuacao">
+                    <h3 class="backend__titulo card-atuacao__titulo">Back-end</h3>
+                    <div class="backend__ilustracao card-atuacao__ilustracao"></div>
+                    <p class="backend__descricao card-atuacao__descricao">
+                        Desenvolvo API que integra banco de dados, regras de negócio e interfaces
                         gráficas.
                     </p>
                 </div>
             </div>
         </section>
         <section id="projetos" class="projetos">
+            <div class="modulo-container">
+                <h2 class="modulo-titulo__faixa-dupla">Projetos</h2>
+                <div class="projeto-card">
+                    <img class="projeto-card__ilustracao" src="./assets/img/alurageek.png"
+                        alt="layout projeto alura geek">
+                    <div class="modulo-container">
+                        <h3 class="projeto-card__titulo">Alura Geek</h3>
+                        <div class="projeto-card__tecnologias">
+                            <h4 class="projeto-card__tecnologia">React</h4>
+                            <h4 class="projeto-card__tecnologia">JavaScript</h4>
+                        </div>
+                        <p class="projeto-card__descricao">
+                            Projeto desenvolvido com a finalidade de estudar o desenvolvimento
+                            de um e-commerce com React.
+                        </p>
+                        <div class="projeto-card__links">
+                            <a class="projeto-card__botao" href="#">repositório</a>
+                            <a class="projeto-card__botao" href="#">ver projeto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <section id="contato" class="contato">
         </section>

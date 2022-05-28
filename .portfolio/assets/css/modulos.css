@@ -1,34 +1,30 @@
-.container{
+.modulo-container{
     margin-inline: 1rem;
 }
-.card__area{
-    align-items: center;
-    border-radius: 10%;
-    box-shadow: 5px 5px 15px rgb(46, 46, 46);
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    padding: 1rem 2rem;
-    width: 85%;
-}
 
-.card__area--titulo{
-    color: var(--azul);
+/* titulo com duas faixas */
+.modulo-titulo__faixa-dupla {
     font-size: 1.125rem;
-    font-weight: 700;
+    padding-bottom: 2rem;
+    text-align: center;
     text-transform: uppercase;
-    margin-bottom: .75rem ;
+    width: 100%;
+}
 
+.modulo-titulo__faixa-dupla::before,
+.modulo-titulo__faixa-dupla::after {
+    display: inline-block;
+    content: "";
+    width: 20%;
+    height: 6px;
+    background: var(--laranja);
+    vertical-align: middle;
 }
-.card__area--ilustracao{
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 150px;
-    margin: 0 auto;
-    width: 150px;
+
+.modulo-titulo__faixa-dupla::before {
+    margin-right: .5rem;
 }
-.card__area--decricao{
-    text-align: justify;
-    font-size: .95rem;
-    line-height: 1.25rem;
+
+.modulo-titulo__faixa-dupla::after {
+    margin-left: .5rem;
 }
