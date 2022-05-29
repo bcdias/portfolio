@@ -5,6 +5,13 @@
     height: 100%;
 }
 
+@media only screen and (min-width: 600px) and (max-height: 420px) and (orientation: landscape) {
+
+    .sobre {
+        height: 640px;
+
+    }
+}
 @media screen and (min-width: 768px) {
     .sobre {
         height: 60vh;
