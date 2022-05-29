@@ -5,7 +5,33 @@
     background-size: 95%;
     background-position: center bottom;
     box-sizing: border-box;
-    height: calc(90vh - 100px);
+    height: calc(95vh - 100px);
     padding-top: 4.5rem;
     width: 100vw;
+}
+
+@media screen and (min-width: 500px) {
+
+    .boas-vindas{
+        background-size: 75%;
+    }
+}
+
+@media screen and (min-width: 700px) {
+
+    .boas-vindas{
+        background-size: 65%;
+    }
+}
+@media screen and (min-width: 1024px) {
+
+    .boas-vindas{
+        background-size: 50%;
+    }
+}
+@media screen and (min-width: 1240px) {
+
+    .boas-vindas{
+        background-size: 40%;
+    }
 }

@@ -8,3 +8,16 @@
     text-align: center;
     text-transform: uppercase;
 }
+
+@media screen and (min-width: 768px) {
+    .projeto-card__botao:hover{
+        background-color: var(--laranja-logo);
+        border-radius: 50px;
+        box-shadow: 2px 2px 3px var(--cor-textos);
+        font-size: .80rem;
+        font-weight: 700;
+        padding: .5rem 0;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}

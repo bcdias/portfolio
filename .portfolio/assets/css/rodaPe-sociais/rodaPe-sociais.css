@@ -1,0 +1,14 @@
+.roda-pe__sociais {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    justify-content: space-around;
+    align-items:flex-end;   
+}
+
+@media screen and (min-width: 768px) {
+    .roda-pe__sociais {
+        height:50%;
+        width: 40%;
+    }
+}

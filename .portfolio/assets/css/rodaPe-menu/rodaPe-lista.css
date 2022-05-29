@@ -1,0 +1,16 @@
+.roda-pe__lista{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .roda-pe__lista{
+        flex-direction: row;
+        height: 30%;
+        padding-top: 2rem;
+    }
+}

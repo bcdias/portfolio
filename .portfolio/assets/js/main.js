@@ -13,10 +13,24 @@ listaLinkMenu.forEach(link => {
 /* Iniciando carrossel */
 $(document).ready(function(){
     $(".owl-carousel").owlCarousel({
-        items: 1,
         loop: true,
         autoplay: true,
         autoplayTimeout: 3500,
         autoplayHoverPause: true,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            768:{
+                items:3
+            },
+            1440:{
+                items:4
+            },
+        },
     });
   });

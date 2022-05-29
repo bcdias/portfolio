@@ -4,3 +4,9 @@
     font-weight: 500;
     padding-bottom: 2rem;
 }
+
+@media screen and (min-width: 768px) {
+    .atuacao__titulo{
+        padding-bottom: 5rem;
+    }
+}

@@ -1,11 +1,22 @@
 .sobre{
-    background-image: url('../../img/molduraFoto.svg');
-    background-position: center 7%;
-    background-repeat: no-repeat;
-    background-size: 80%;
     height: 100vh;
-    font-family: var(--fonte);
 }
 .sobre .modulo-container{
-    padding-top: 17%;
+    height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .sobre {
+        height: 60vh;
+        margin-top: 3rem;        
+    }
+    .sobre .modulo-container{
+        display: flex;
+        
+    }
+}
+@media screen and (min-width: 1024px) {
+    .sobre {
+        height: 60vh;
+    }
 }

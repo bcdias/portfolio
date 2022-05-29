@@ -28,3 +28,17 @@
 .modulo-titulo__faixa-dupla::after {
     margin-left: .5rem;
 }
+
+
+@media screen and (min-width: 768px) {
+    .modulo-titulo__faixa-dupla {
+        font-size: 1.5rem;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .modulo-container{
+        margin-inline: 3rem;
+    }
+}

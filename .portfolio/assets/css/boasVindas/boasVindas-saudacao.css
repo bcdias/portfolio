@@ -27,3 +27,13 @@
         opacity: 1;
     }
 }
+
+@media screen and (min-width: 600px) {
+    .boas-vindas__saudacao::before{
+        width: 120px;
+    }
+    .boas-vindas__saudacao{
+        font-size: 1.25rem;
+
+    }
+}
