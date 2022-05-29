@@ -1,6 +1,10 @@
+.cabecalho__logo{
+    width: 50%px;
+}
+
 @media screen and (min-width: 1024px) {
-    .cabecalho__logo{   
-       height: 100%;
+    .cabecalho__logo {
+        height: 100%;
     }
-    
+
 }
