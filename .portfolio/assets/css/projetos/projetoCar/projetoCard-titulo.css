@@ -1,0 +1,6 @@
+.projeto-card__titulo{
+    color: var(--branco);
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}

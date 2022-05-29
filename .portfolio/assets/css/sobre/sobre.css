@@ -1,0 +1,22 @@
+.sobre{
+    height: 100vh;
+}
+.sobre .modulo-container{
+    height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .sobre {
+        height: 60vh;
+        margin-top: 3rem;        
+    }
+    .sobre .modulo-container{
+        display: flex;
+        
+    }
+}
+@media screen and (min-width: 1024px) {
+    .sobre {
+        height: 60vh;
+    }
+}

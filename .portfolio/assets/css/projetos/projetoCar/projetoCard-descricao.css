@@ -1,0 +1,7 @@
+.projeto-card__descricao{
+    color: var(--branco);
+    text-align: justify;
+    line-height: 1.25rem;
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
