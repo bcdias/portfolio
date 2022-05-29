@@ -1,0 +1,11 @@
+.projeto-card{
+    background-color: var(--laranja);
+    box-shadow: 5px 5px 15px rgb(46, 46, 46);
+    height: 440px;
+    margin-bottom: 2rem;
+    width: 325px;
+}
+
+.projeto-card .modulo-container{
+    padding-top: 0;
+}

@@ -1,0 +1,26 @@
+.sobre__img-container {
+    background-image: url('../../img/molduraFoto.svg');
+    background-position: center 7%;
+    background-repeat: no-repeat;
+    background-size: 295px;
+    font-family: var(--fonte);
+    height: 40%;
+    margin-top: 1rem;
+    padding-top: 35px;
+}
+
+@media screen and (min-width: 768px) {
+    .sobre__img-container {
+        height: 80%;
+        padding-top: 40px;
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .sobre__img-container {
+        height: 100%;
+        padding-top: 47px;
+        width: 37%;
+    }
+}

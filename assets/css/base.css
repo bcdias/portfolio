@@ -1,103 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+:root{
+    --azul: rgb(95, 186, 255);
+    --azul-logo: rgb(186, 225, 255);
+    --bg-menu-mobile: rgba(254, 254, 254, 0.95);
+    --bg-geral: rgb(254, 254, 254);
+    --branco: rgb(255, 255, 255); 
+    --cor-textos: rgb(70, 70, 70);
+    --laranja: rgb(255, 189, 89);
+    --laranja-logo: rgb(255, 225, 181);
 
-/* Estilos Globais */
-:root {
-  /* Fontes */
-  --fonte-textos: "Inter", sans-serif;
-  --fonte-titulos: "Roboto", sans-serif;
-  --tamanho-fonte-titulo: 1.25rem;
-  --tamanho-fonte-textos: 1rem;
-
-  /* cores */
-  --azul-claro: #add8e6;
-  --cinza-azulado: #4d6066;
-  --branco-leve: #fefefe;
-  --branco: #ffffff;
-  --azul-acinzentado: #99bfcc;
 }
-
-body {
-  background-color: var(--azul-claro);
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  padding: 1rem;
+.base{
+    background-color: var(--bg-geral);
+    color: var(--cor-textos);
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
 }
-
-
-.cv-container {
-  box-sizing: border-box;
-  display: flex;
-}
-
-/* Encapsulamento */
-.container {
-  margin: 1.75rem 1.25rem;
-}
-
-/* Seções */
-.esquerda {
-  background-color: var(--cinza-azulado);
-  box-sizing: border-box;
-  width: 35%;
-}
-
-.direita {
-  background-color: var(--branco-leve);
-  box-sizing: border-box;
-  width: 65%;
-}
-
-
-/* Textos */
-.titulo-secao {
-  font-family: var(--fonte-titulos);
-  font-size: var(--tamanho-fonte-titulo);
-  font-weight: 700;
-  text-transform: uppercase;
-  margin: 0.75rem 0;
-}
-.titulo-secao--direita{
-  color: var(--cinza-azulado);
-}
-
-.textos{
-  font-family: var(--fonte-textos);
-  font-size: var(--tamanho-fonte-textos);
-  line-height: 1.375rem;
-  text-align: justify;
-}
-.textos--esquerda {
-  color: var(--branco);
-}
-
-
-/* Alinhamentos */
-.itens{
-  padding: .5rem 0;
-}
-
-/* Responsivo */
-
-
-@media screen and (max-width: 1024px) {
-  body{
-    padding: 0;
-  }
-  .cv-container{
-    flex-direction: column;
-  }
-  .esquerda{
-    width: 100%;
-  }
-  .direita{
-    width: 100%;
-  }
-  
-}
-
-
-
-
-

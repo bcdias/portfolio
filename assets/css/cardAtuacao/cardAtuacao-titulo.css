@@ -1,0 +1,8 @@
+.card-atuacao__titulo{
+    color: var(--azul);
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: .75rem ;
+
+}
